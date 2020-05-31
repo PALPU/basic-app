@@ -35,13 +35,13 @@ To install yarn run the command on your linux terminal or VS-Code terminal:
 - if marks <=50, status will be 'Fail'.
 - if marks is not filled, status will be 'None'.
 
-### open-EntrySheet
+### 'open-EntrySheet' Button
 
 - Enter the details of the student and click submit button to add an Entry to the students table.
 - All the fields must be filled to add an Entry successfully.
 - on successful submission, NewEntrySheet will close and entry will be added to the students table.
 
-### Reset button
+### 'Reset button' Button
 
 - Resets all the students data to the static_data provided in the app.
 
