@@ -6,13 +6,13 @@ To install yarn run the command on your linux terminal or VS-Code terminal:
 ## Running the Project using yarn
 
 - unzip the folder
-- cd <Project-Folder-Name> [changes the director to the project folder]
+- 'cd basic-app' [changes the directory to the project folder]
 - yarn install [installs all the dependencies]
 - yarn start [runs the app on the localhost: 'http://localhost:3000/']
 
 ## Running the Project using npm
 
 - unzip the folder
-- cd <Project-Folder-Name> [changes the director to the project folder]
+- cd <Project-Folder-Name> [changes the directory to the project folder]
 - npm install [installs all the dependencies]
 - npm start [runs the app on the localhost: 'http://localhost:3000/']
