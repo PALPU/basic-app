@@ -1,0 +1,134 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.app-nav-container {
+  flex-direction: row;
+  margin: 10px;
+  border: solid 1px black;
+  background-color: gray;
+}
+.nav-container {
+  display: flex;
+}
+.app-logo {
+  height: 70px;
+  width: 100px;
+  border-radius: 4;
+  border-width: 2;
+  border-style: solid;
+}
+.app-nav {
+  margin-left: 20px;
+  display: flex;
+}
+.student-table {
+  width: 100%;
+  align-items: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+}
+.homePage-container {
+  margin: 10px;
+}
+.nav-buttons {
+  width: 100px;
+  height: 100%;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+input {
+  width: 100%;
+}
+.input-row {
+  background-color: yellow;
+}
+.Fail {
+  background-color: red;
+  color: white;
+}
+.Pass {
+  background-color: green;
+  color: white;
+}
+.btn {
+  margin: 10px;
+  min-width: 150px;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-img {
+  width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.title {
+  color: grey;
+}
+.card-img {
+  size: 100px 100px;
+}
+.card-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-button:hover {
+  background-color: #555;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info-d {
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+p {
+  padding: 3px;
+}
+.card-content {
+  margin-left: 5px;
+  padding: 5px;
+}
